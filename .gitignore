@@ -1,0 +1,7 @@
+results/
+*.pth
+*.log
+*.zip
+*.jpg
+*.png
+*.mp4
