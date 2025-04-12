@@ -107,7 +107,7 @@ def init_model(config: Union[str, Path, Config],
     dataset_meta = None
 
     if checkpoint is not None:
-        ckpt = load_checkpoint(model, checkpoint, map_location='cpu')
+        ckpt = load_checkpoint(model, checkpoint, map_location='cpu', weights_only=False)
 
         if 'dataset_meta' in ckpt.get('meta', {}):
             # checkpoint from mmpose 1.x
