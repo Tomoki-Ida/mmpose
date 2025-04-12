@@ -32,7 +32,7 @@ env_cfg = dict(
 # visualizer
 vis_backends = [
     dict(type='LocalVisBackend'),
-    # dict(type='TensorboardVisBackend'),
+    dict(type='TensorboardVisBackend'),
     # dict(type='WandbVisBackend'),
 ]
 visualizer = dict(
