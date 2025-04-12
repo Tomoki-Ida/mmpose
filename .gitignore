@@ -1,7 +1,19 @@
-results/
+# Model checkpoints
+checkpoints/
 *.pth
+
+# Logs
 *.log
+
+# Zip archives
 *.zip
+
+# Image/video outputs
 *.jpg
 *.png
+*.avi
 *.mp4
+*.mov
+
+# Results
+results/
