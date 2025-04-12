@@ -1,4 +1,4 @@
-_base_ = ['../../../_base_/default_runtime.py']
+_base_ = ['../../../../_base_/default_runtime.py']
 
 # runtime
 train_cfg = dict(max_epochs=600, val_interval=20, dynamic_intervals=[(580, 1)])
@@ -50,7 +50,7 @@ param_scheduler = [
 
 # data
 input_size = (640, 640)
-metafile = 'configs/_base_/datasets/coco.py'
+metafile = '../../../../_base_/datasets/coco.py'
 codec = dict(type='YOLOXPoseAnnotationProcessor', input_size=input_size)
 
 train_pipeline_stage1 = [
