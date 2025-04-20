@@ -1,4 +1,4 @@
-_base_ = ['../../../_base_/default_runtime.py']
+_base_ = ['/mmpose/configs/_base_/default_runtime.py']
 
 # runtime
 train_cfg = None
